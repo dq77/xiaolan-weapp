@@ -1,0 +1,13 @@
+$color-brand: #4164ff;
+/* 引入 Taro UI 默认样式 */
+@import "~taro-ui/dist/style/index.scss";
+
+// body {
+//font-family: 'Helvetica' !important;
+//}
+
+.space-between-20 {
+  height: 10Px;
+  background-color: #F3F4F5;
+}
+

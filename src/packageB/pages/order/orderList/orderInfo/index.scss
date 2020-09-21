@@ -1,0 +1,96 @@
+.orderGoods{
+  font-size: 14Px;
+  // margin-top: 20px;
+  height: 100%;
+  .goods{
+    background: #fff;
+    margin-top: 20px;
+    .goods_top{
+      padding: 0 30px;
+      height: 88px;
+      font-size: 12Px;
+      border-bottom: 1px solid #EBEBEB;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .rightText{
+        color:#4164ff;
+      }
+    }
+    .goods_center{
+      padding: 30px 30px;
+      border-bottom: 1px solid #EBEBEB;
+      display: flex;
+      .imgwrap{
+        width:140px;
+        height: 140px;
+        margin-right: 20px;
+      }
+      .goods_center_right{
+        flex: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        .goods_center_right_goodsname{
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .goods_center_right_brief{
+          color: #9B9B9B ;
+          font-size: 12Px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .goods_center_right_info{
+          display: flex;
+          justify-content: space-between;
+          margin-top: 20px;
+          .goods_center_right_pric{
+            color: #999;
+            .goods_center_right_pric_money{
+              font-size: 16Px;
+              color: #FF1926;
+            }
+          }
+        }
+      }
+    }
+    .goods_footer{
+      height: 100px;
+      padding: 0 30px;
+      font-size: 12Px;
+      color: #9b9b9b;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .at-button{
+        margin: 8px;
+      }
+      .payChannel, .pay_btn{
+        width: 50%;
+      }
+      .pay_btn {
+        text-align: right;
+        line-height: 1;
+        // display: flex;
+        // justify-content: space-around;
+        .at-button {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .footer_text{
+    position: relative;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: #666;
+  }
+
+  .at-modal__content{
+    min-height: initial;
+    text-align: center;
+  }
+}

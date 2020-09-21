@@ -1,0 +1,34 @@
+.lan-point {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-bottom: 20px;
+  font-size: 28px;
+
+  .right_node {
+    display: flex;
+    align-items: center;
+    color: #666666;
+  }
+  .use-point{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    background: url('https://tzg-static.oss-cn-hangzhou.aliyuncs.com/xiaolan/order/nocheck.png');
+    background-size: 100% 100%;
+    margin: -6rpx 0 0 6rpx;
+    vertical-align: middle;
+  }
+  .use-point.true{
+    background: url('https://tzg-static.oss-cn-hangzhou.aliyuncs.com/xiaolan/order/ischeck.png');
+    background-size: 100% 100%;
+  }
+
+  .right_Text {
+    text-align: right;
+    letter-spacing: 2px;
+  }
+}

@@ -1,0 +1,34 @@
+.caseBack {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  .right_node {
+    display: flex;
+    align-items: center;
+    color: #666666;
+  }
+
+  .right_Text {
+    text-align: right;
+    letter-spacing: 2px;
+  }
+
+  .vgn {
+    color: #ccc;
+  }
+  .option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 14px;
+    border-bottom: 1px solid #EBEBEB;
+  }
+}
+.caseConfirm{
+  font-size: 14Px;
+  border-top: 1px solid #ebebeb;
+  padding: 25px 0;
+}

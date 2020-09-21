@@ -1,0 +1,90 @@
+// 意见反馈
+@import "../../../styles/mixin.scss";
+
+.feedback {
+  @include wh(100%, 100%);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #f9f9fb;
+
+  .suggestion {
+    border: 1px solid #ebebeb;
+    background: #fff;
+    width: 348*2px;
+    // height: 360*2px;
+    margin: 0 auto;
+
+    .question-title {
+      display: block;
+      margin: 3% 4% 0;
+      font-size: 28px;
+      font-family: PingFangSC-Semibold;
+    }
+
+    // 输入文本域
+    .at-textarea {
+      border: none;
+      background: #fff;
+      width: 98%;
+      margin: 0 auto;
+      // padding-left: 3.3%;
+    }
+
+    .at-textarea--WEB .at-textarea__textarea,
+    .at-textarea--WEAPP .at-textarea__textarea {
+      background: #fff;
+      font-size: 12PX;
+    }
+
+    .at-textarea__counter {
+      color: #333;
+    }
+
+    .tips {
+      display: block;
+      margin: 3.3% 4.3% 10Px;
+      font-size: 12PX;
+      color: #ccc;
+    }
+  }
+
+  .phone {
+    margin: 30px auto;
+    padding: 30px 3.3%;
+    background: #fff;
+
+    input {
+      font-size: 12PX;
+    }
+
+    .question-title {
+      display: block;
+      margin: 3% 3% 0;
+      font-size: 28px;
+      font-family: PingFangSC-Semibold;
+    }
+
+    .at-input {
+      border-bottom: 1px solid #ebebeb;
+      margin-right: 4.3%;
+    }
+  }
+
+  .submit {
+    // background: #4164ff;
+    border-radius: 2px;
+    width: 94.7%;
+    height: 7.5%;
+    margin: 0 auto;
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: -0.12px;
+    text-align: center;
+  }
+
+  .imguploadWrap {
+    display: flex;
+  }
+}

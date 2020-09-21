@@ -1,0 +1,69 @@
+@import "../../../styles/mixin.scss";
+
+.brandList-page {
+  @include wh(100%, 100%);
+  box-sizing: border-box;
+  padding: 0 32px;
+  .scrollview {
+    width: 100%;
+    position: relative;
+  }
+  .brandCard {
+    width: 686px;
+    height: 440px;
+    margin-bottom: 20px;
+    .brandImg {
+      width: 683px;
+      height: 340px;
+      display: block;
+    }
+    .brandBar {
+      width: 683px;
+      height: 100px;
+      padding: 0 26px;
+      box-sizing: border-box;
+      border: 1px solid #EBEBEB;
+      border-top: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .brand-text {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .brandIcon {
+          width: 62px;
+          height: 62px;
+        }
+        .name-brief {
+          margin-left: 16px;
+          .brandName {
+            font-family: PingFangSC-Regular;
+            font-size: 12Px;
+            color: #333333;
+            letter-spacing: 0;
+            line-height: 24px;
+          }
+          .brandBrief {
+            font-family: PingFangSC-Regular;
+            font-size: 10Px;
+            color: #999999;
+            letter-spacing: 0;
+            line-height: 20px;
+            margin-top: 8px;
+          }
+        }
+      }
+  }
+  }
+  .bottom-text {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc9c9;
+    margin-bottom: 10Px;
+    // position: absolute;
+    // bottom: 10Px;
+  }
+}

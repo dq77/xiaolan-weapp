@@ -1,0 +1,18 @@
+@import "../../../styles/mixin.scss";
+
+.category-banner {
+  width: 540px;
+}
+
+.category-banner__item {
+
+  &-img {
+    height: 196px;
+    border-radius: 8px;
+  }
+
+  .taro-img {
+    height: 196px;
+    border-radius: 8px;
+  }
+}

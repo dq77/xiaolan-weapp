@@ -1,0 +1,44 @@
+.orderMessage{
+  background: #fff;
+  padding: 20px 30px 20px 30px ;
+  margin-top: 20px;
+  font-size: 12Px;
+  .cell{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    .cell_left{
+      color: #333;
+    }
+    .cell_right{
+      color:#666;
+      text-align: right;
+      .copy {
+        width: 132px;
+        height: 40px;
+      }
+      .btn{
+        margin-left: 30px;
+        width: 134px;
+        height: 40px;
+        border: 1px solid #999;
+        text-align: center;
+        display: inline-block;
+        vertical-align: initial;
+      }
+      .ov{
+        width: 80%;
+        overflow: auto;
+      }
+    }
+  }
+  .copy{
+    display: inline-block;
+    border: 1px solid #666;
+    color: #666666;
+    width: 132px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+  }
+}

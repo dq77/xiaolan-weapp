@@ -1,0 +1,34 @@
+.personas {
+  font-size: 14PX;
+  background: #fff;
+  margin-top: 20px;
+  box-sizing: border-box;
+
+  .at-input__title {
+    white-space: nowrap;
+    font-size: 14Px;
+  }
+
+  .at-input {
+    margin-right: 30px;
+  }
+  .id-card {
+    margin-right: 30px;
+  }
+
+  .at-input::after {
+    border: 0 solid #EBEBEB;
+    border-bottom-width: 2PX;
+  }
+
+}
+
+.id-card.at-input__title {
+  font-size: 14Px;
+  padding-right: 0;
+}
+.id-card {
+  .at-input__input {
+    color: aquamarine;
+  }
+}

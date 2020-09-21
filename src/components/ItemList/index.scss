@@ -1,0 +1,94 @@
+.item-list-components {
+  width: 100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f4f5;
+  .goods-list-item {
+    // width: 100%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction:row;
+    background-color: #fff;
+    padding:10Px 6Px;
+
+    .taro-img {
+      width: 230px;
+      height:230px;
+      cursor: pointer;
+      img {
+        width: 230px;
+        height:230px;
+      }
+    }
+
+    .list-txt-block {
+      width: 480px;
+      padding: 10px 0 10px 8Px;
+      display: flex;
+      flex-direction: column;
+      line-height: 1;
+
+      .list-item-title {
+        width: 480px;
+        // white-space: wrap;
+        // overflow: hidden;
+        // text-overflow:ellipsis;
+        padding:4Px 0;
+        .item-title-txt {
+          font-size: 14Px;
+          color: #333;
+          width: 332px;
+          font-weight:600;
+          // white-space: nowrap;
+          line-height: 1.5;
+        }
+      }
+
+      .list-item-brief {
+
+        .item-brief-txt {
+          font-size:10Px;
+        }
+      }
+
+      .list-item-tag {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4Px 0;
+        .item-tag-txt {
+          color: #4164ff;
+          font-size: 10Px;
+          background-color: #fff;
+          border:1Px solid #4164ff;
+          border-radius: 4Px;
+          margin:0 8px 4px 0;
+          display:inline-block;
+          padding:2Px;
+        }
+
+        .at-tag {
+          font-size: 12Px;
+          color: #4164ff;
+          margin-right: 5px;
+          margin: 0 5px 5px 0;
+          border-radius: 0;
+          border:1px solid #4164ff;
+        }
+      }
+
+      .list-item-price {
+        font-size: 12Px;
+        color:#999;
+        padding: 10Px 0;
+        .price {
+          display: inline;
+          color: #FF1926;
+          font-size: 16Px;
+          padding-right: 4Px;
+        }
+      }
+
+    }
+  }
+}

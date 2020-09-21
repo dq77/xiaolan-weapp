@@ -1,0 +1,92 @@
+@import "../../../../styles/mixin.scss";
+
+.info-warp {
+  height: 120px;
+  background: #4a4c58;
+  text-align: center;
+
+  .taro-img {
+    width: 24PX;
+    height: 24PX;
+  }
+
+  .at-col--wrap {
+    font-family: PingFangSC-Regular;
+    font-size: 12PX;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 18PX;
+  }
+
+  .at-col-2 {
+    max-width: 12%;
+  }
+}
+
+.info-title {
+  padding: 4.3% 4%;
+  border-bottom: 1px solid #ececec;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.authentication-form {
+  .at-input {
+    background: #f9f9fb;
+  }
+
+  .at-input::after {
+    border: none;
+    border-bottom: 1px solid #ececec;
+  }
+
+  .attribute-name {
+    width: 90%;
+    font-size: 12PX;
+    color: #999;
+    margin: 16PX 16PX 0;
+
+    .approve {
+      text-align: right;
+
+      .taro-img {
+        width: 24PX;
+        height: 24PX;
+      }
+
+      span {
+        position: relative;
+        left: 10px;
+        bottom: 15px;
+      }
+    }
+  }
+}
+
+.upload-warp {
+  margin: 40px 0 60px 0;
+
+  // 上传身份证
+  .upload-card {
+    position: relative;
+    width: 320px;
+    height: 220px;
+    border-radius: 8px;
+    background: #999;
+
+    .taro-img {
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 76px;
+      height: 76px;
+    }
+    .fullImage {
+      width: 320px;
+      height: 220px;
+    }
+  }
+}

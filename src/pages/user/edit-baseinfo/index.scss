@@ -1,0 +1,210 @@
+// 个人资料
+@import "../../../styles/mixin.scss";
+
+// 编辑个人资料
+.edit-info {
+  .mine-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .relative-warp {
+      margin: 2.3% 3.3% 0 4.3%;
+      position: relative;
+      .user-photo {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+      }
+
+      .image-picker {
+        position: absolute;
+        width: 20PX;
+        height: 20PX;
+        top: 85px;
+        right: 0px;
+      }
+    }
+
+    .user-name {
+      display: inline-block;
+      font-size: 16PX;
+      color: #333;
+      margin-left: 15px;
+    }
+
+    .edit-name {
+      position: relative;
+      top: 10px;
+      left: 20px;
+      width: 24PX;
+      height: 24PX;
+    }
+  }
+
+  .common-title {
+    margin: 4% 4% 0 4%;
+
+    span {
+      display: block;
+      margin: 3.3% 0;
+    }
+
+    .title {
+      font-family: PingFangSC-Medium;
+      font-size: 16PX;
+      font-weight: bold;
+      color: #333333;
+      letter-spacing: 0;
+      line-height: 16PX;
+    }
+
+    .intro {
+      font-family: PingFangSC-Regular;
+      font-size: 12PX;
+      color: #999999;
+      letter-spacing: 0;
+      line-height: 10PX;
+    }
+
+    // 身份认证
+    .authentication {
+      margin: 42px 0 0 0;
+      height: 44PX;
+      background: #FFFFFF;
+      box-shadow: 0 3PX 10PX 0 rgba(173, 179, 191, 0.30);
+      border-radius: 4PX;
+
+      .at-list__item::after {
+        border-bottom: none;
+      }
+    }
+
+  }
+
+  // 编辑页面公共列表开始
+
+  .at-list__item .item-content__info-title {
+    font-size: 0.59733rem;
+    color: #333;
+  }
+
+  //    列表右边文字 宽度
+  .at-list__item-extra {
+    width: 260px;
+  }
+
+  //  列表右边箭头
+  .at-list__item .item-extra__icon-arrow {
+    position: relative;
+    top: 7px;
+    font-size: 0.68267rem;
+  }
+
+  .at-list__item .item-extra__info {
+    opacity: 0.99;
+    font-family: PingFangSC-Regular;
+    font-size: 12PX;
+    color: #CCCCCC;
+    letter-spacing: -0.34px;
+    line-height: 14PX;
+  }
+
+  .at-list__item::after {
+    left: 0;
+  }
+  // 编辑页面公共列表结束
+
+
+  // 按钮
+  .at-button {
+    width: 355*2px;
+    height: 100px;
+    margin: 40px auto;
+  }
+
+  // 编辑页面公共输入框开始
+
+
+  .at-input input,
+  .at-input__title {
+    font-size: 14Px;
+  }
+  .at-input {
+    margin-top: 10PX;
+    margin-left: 0;
+    padding: 12PX 0 12px 16PX;
+  }
+
+  .at-input::after {
+    border-bottom: none;
+  }
+
+  .relative-warp {
+    // .label-file {
+    .user-photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+    // }
+  }
+  .at-avatar {
+    line-height: 62PX;
+    background: #4164ff;
+    .taro-text {
+      font-size: 64px;
+      font-weight: bold;
+    }
+  }
+  .picker {
+    .item-content__info-title  {
+      font-size: 14Px;
+    }
+  }
+}
+  // 编辑页面公共输入框结束
+
+  //  编辑公共下拉框开始
+  .weui-picker__hd {
+    padding: 3.3% 5.3%;
+  }
+  .weui-picker__action:first-child {
+    font-size: 14PX;
+  }
+  .weui-picker__action {
+    font-size: 14PX;
+    color: #4164ff;
+  }
+  // 编辑公共下拉框结束
+
+  // 更改用户名开始
+.edit-name {
+  @include wh(100%, 100%);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  // background: #f9f9fb;
+  // 更改用户名结束
+
+}
+
+.loginOut{
+  margin: 0 4%;
+  padding: 15px 0;
+  font-size: 14PX;
+  text-align: center;
+  color: red;
+  border-bottom: 1PX solid #d6e4ef;
+}
+
+.at-modal__content {
+  min-height: 0 !important;
+  text-align: center;
+}
+.edit-info .at-modal__footer .at-modal__action > button:first-child{
+  color: #4164ff;
+}
+.edit-info .at-modal__footer .at-modal__action > button:last-child, .edit-info .at-modal__footer--simple .at-modal__action > button:last-child:nth-child(2){
+  color: #333;
+}

@@ -1,0 +1,78 @@
+// 常见问题
+@import "../../../styles/mixin.scss";
+
+.common-problem {
+  @include wh(100%, 100%);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #f9f9fb;
+
+  // 手风琴 文字样式
+  .at-accordion__title {
+    font-size: 28px;
+  }
+
+  // 手风情 图标样式
+  .at-accordion__arrow {
+    font-size: 44px;
+  }
+
+  .at-accordion__header {
+    border-bottom: 1px solid #f6f6f6;
+    padding: 5.3% 5.3%;
+    position: relative;
+  }
+
+  .at-accordion {
+    background: #fff;
+  }
+
+  .answer {
+    font-family: PingFangSC-Regular;
+    font-size: 12Px;
+    color: #666666;
+    letter-spacing: 0;
+    padding: 5.3%;
+    display: inline-block;
+    border-bottom: 1px solid #f6f6f6;
+  }
+
+  // 联系我们
+  .contact-us {
+    background: #fff;
+    padding: 4.3%;
+
+    .contact-us-head {
+      display: block;
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 30px;
+      margin: 15px 0;
+    }
+
+    .contact-us-options {
+      display: block;
+      font-family: PingFangSC-Regular;
+      font-size: 26px;
+      color: #333333;
+      letter-spacing: 0;
+      margin: 25px 0;
+      line-height: 28px;
+      .phone{
+        color: rgb(0, 140, 255)
+      }
+    }
+    .phone{
+      color: rgb(0, 140, 255)
+    }
+  }
+  .at-accordion__body{
+    border-bottom:1px solid #f6f6f6;
+    padding: 0 16Px;
+    .answer{
+      padding-left:0;
+      padding-right: 0; 
+    }
+  }
+}

@@ -1,0 +1,77 @@
+@import "../../../../styles/mixin.scss";
+
+.item-footer {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  background: #fff;
+  // @include border(top, 1px, solid, $border-color);
+}
+
+.item-footer__nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  // @include border(right, 1px, solid, $border-color);
+  
+  .item-footer__nav-img {
+    width: 56px;
+    height: 56px;
+  }
+
+  &-txt {
+    color: #999;
+    font-size: 10Px;
+  }
+}
+
+.item-footer__buy {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  // @include border(right, 1px, solid, $border-color);
+  background-color: #4164ff;
+
+  &-txt {
+    color: #fff;
+    font-size: 16Px;
+    line-height: 28px;
+  }
+  .buy-btn{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.getPhoneNumberBtn{
+  background-color: transparent;
+  border: 1px solid #4164ff;
+  box-shadow: 0 0 0 0px;
+}
+.getPhoneNumberBtn::after{
+  border: 1px solid #4164ff;
+}
+
+.item-footer__disabled {
+  background-color: #ccc;
+}
+.kefu-container {
+  display: flex;
+  flex-direction: column;
+}
+.kefu-btn {
+  position: absolute;
+  top: 5px;
+  left: 27%;
+  opacity: 0;
+  .at-button {
+    border: none;
+  }
+}
+

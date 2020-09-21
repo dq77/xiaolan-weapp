@@ -1,0 +1,122 @@
+// 我的优惠券
+@import "../../styles/mixin";
+
+.common-coupon {
+  width: 343*2px;
+  height: 180px;
+  margin: 4% auto;
+  background: #ccecff;
+  border-radius: 5px;
+
+  .at-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .discount-price {
+    margin: 35px 0 0 40px;
+  }
+
+  .at-col-8 {
+    font-family: PingFangSC-Medium;
+    color: #4164ff;
+    letter-spacing: 0;
+  }
+
+  .symbol-money {
+    font-size: 26px;
+  }
+
+  .money {
+    line-height: 36px;
+    font-size: 56px;
+  }
+
+  .discount-type {
+    line-height: 26px;
+    display: block;
+    margin: 6px 0 10px 40px;
+    font-size: 26px;
+  }
+
+  .discount-time {
+    margin: 15px 0px 34px 40px;
+    line-height: 12px;
+  }
+
+  .discount-time {
+    font-size: 12Px;
+  }
+
+  .at-col-3 {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+
+    .at-button--small {
+      width: 160px;
+      border-radius: 2px;
+      height: 60px;
+      font-family: PingFangSC-Regular;
+      font-size: 12Px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      text-align: center;
+      line-height: 54px;
+    }
+  }
+
+  .taro-img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    float: right;
+    margin-right: 15px;
+  }
+}
+
+// 已使用
+.used {
+  background: #f3f4f5;
+
+  .at-col-8 {
+    color: #999;
+  }
+
+  .taro-img {
+    width: 170px;
+    height: 170px;
+    position: relative;
+    left: 20px;
+  }
+}
+
+// 已過期
+.overdue {
+  background: #f3f4f5;
+
+  .at-col-8 {
+    color: #999;
+  }
+}
+
+// 没有优惠券
+.no-coupon {
+  margin: 57*2px 127*2px;
+
+  .taro-img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 28px;
+    color: #666666;
+    line-height: 28px;
+  }
+}

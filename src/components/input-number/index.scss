@@ -1,0 +1,53 @@
+@import '../../styles/mixin.scss';
+
+.comp-input-number {
+  display: flex;
+  flex-direction: row;
+  height: 26px;
+
+
+.comp-input-number__minus,
+.comp-input-number__plus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+  @include hairline(border-width);
+  border-left-width: 0;
+  border-radius: 0 $border-radius $border-radius 0;
+  background-color: #F3F4F5;
+
+}
+.comp-input-number__minus-img,.comp-input-number__plus-img {
+    width: 30px;
+    height: 30px !important;
+  }
+
+.comp-input-number__minus {
+  @include hairline(border-left-width);
+  border-right-width: 0;
+  border-radius: $border-radius 0 0 $border-radius;
+
+  &--disabled {
+    border-color: #cccccc;
+  }
+}
+
+.comp-input-number__num {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 100%;
+  background-color: #F3F4F5;
+  margin: 0 8px;
+
+  &-txt {
+    color: $text-color;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+}

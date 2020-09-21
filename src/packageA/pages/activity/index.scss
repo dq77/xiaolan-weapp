@@ -1,0 +1,21 @@
+@import "../../../styles/mixin.scss";
+
+.loading-page {
+  text-align:center;
+  position:relative;
+  top:30%;
+
+  .loading-tips-txt {
+    font-size:12Px;
+  }
+}
+
+.activity-page {
+  // @include wh(100%, 100%);
+  width:750px;
+  overflow:hidden;
+
+  image {
+    width:auto;
+  }
+}

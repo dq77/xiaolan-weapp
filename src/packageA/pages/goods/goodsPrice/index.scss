@@ -1,0 +1,51 @@
+.item-price {
+  padding: 0 20px 20px;
+  &-value {
+    color: #FF1E32;
+    font-size: 24Px;
+    .price-symbol {
+      font-size: 12Px;
+      padding-right: 4Px;
+    }
+
+    .price-unit {
+      font-size: 12Px;
+      color: #999;
+    }
+
+    .official-price {
+      font-size: 24px;
+      display: inline-block;
+      padding:2Px;
+      margin-left:32px;
+      text-decoration:line-through;
+      vertical-align: middle;
+      margin-bottom: 8px;
+      color:#999;
+    }
+    .deductible{
+      display: inline-block;
+      vertical-align: middle;
+      background-color: #445AED;
+      color: #FFF;
+      font-size: 28px;
+      line-height: 28px;
+      padding: 11px 12px 13px;
+      border-radius: 50px;
+      margin: 0 0 8px 16px;
+    }
+  }
+  &-labels {
+    margin-bottom: 24px;
+    .label-item {
+      display: inline-block;
+      color: #fff;
+      font-size: 10Px;
+      border: 1Px solid #4164ff;
+      color: #4164ff;
+      padding: 1Px 4Px;
+      border-radius: 4Px;
+      margin:0 8px 0 0;
+    }
+  }
+}

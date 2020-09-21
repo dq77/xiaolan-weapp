@@ -1,0 +1,37 @@
+.vip-detail{
+  height: 100%;
+  width: 100%;
+  background-color: #F6F7F8;
+  .detail-table{
+    padding: 10px 0;
+    .item{
+      background-color: #FFF;
+      display: flex;
+      justify-content: space-between;
+      font-size: 26px;
+      color: #666;
+      margin: 20px 0;
+      padding: 24px 32px;
+      .left{
+        .cause{
+          margin-bottom: 6px;
+        }
+        .date{
+          color: #999999;
+          font-size: 22px;
+        }
+      }
+      .right{ 
+        .point{
+          font-size: 36px;
+          color: #D0021B;
+          text-align: right;
+        }
+        .result{
+          color: #999999;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@import "../../styles/mixin.scss";
+
+
+.category-page {
+  @include wh(100%, 100%);
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  background: #ffffff;
+
+  .cate__menu {
+    width: 162px;
+    background-color: #F9F9FB;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .cate__list {
+    // TODO 此处不能能用 flex: 1 (flex-basis: 0)，RN 上会无法滚动，跟 ScrollView 的处理有关
+    flex-grow: 1;
+    margin-left: 162px;
+
+    &-wrap {
+      padding: 30px 30px 20px;
+    }
+  }
+  ::-webkit-scrollbar{
+    display: none
+  }
+
+  .bottom-text {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc9c9;
+    padding: 20px 0;
+  }
+
+}

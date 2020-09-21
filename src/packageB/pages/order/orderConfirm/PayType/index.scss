@@ -1,0 +1,112 @@
+.paySelect {
+  font-size: 14PX;
+  // height: 254px;
+  background: #fff;
+  box-sizing: border-box;
+  margin-top: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+
+  .vgn {
+    color: #ccc;
+  }
+
+  .pay_price,
+  .payType {
+    display: flex;
+    justify-content: space-between;
+
+    .payType_value {
+      color: #666;
+    }
+  }
+
+  .pay_price {
+    margin-top: 30px;
+  }
+
+  .lease_detail {
+    padding-top: 26px;
+    display: flex;
+    border-top: 1px solid #EBEBEB;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    .lease_detail_right {
+      color: #666;
+      display: flex;
+      align-items: center;
+
+      .lease_detail_right_value {
+        display: flex;
+        flex-direction: column;
+
+        .lease_detail_right_value_text {
+          text-align: right;
+        }
+      }
+    }
+
+    .firstlesate_price {
+      display: flex;
+      flex-direction: column;
+      font-size: 12Px;
+
+      .taro-text {
+        text-align: right;
+      }
+
+      .firstlesate_price_coupons {
+        color: #4164ff;
+      }
+    }
+  }
+
+  .onpay {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .onepay_price {
+      color: #666;
+    }
+  }
+
+
+  .at-radio__title {
+    color: #333;
+  }
+
+  .at-radio__option-wrap {
+    position: relative;
+  }
+
+  .at-radio__desc {
+    display: inline-block;
+    color: #999;
+    width: inherit;
+    font-size: 12PX;
+    text-align: center;
+    background: #4164ff;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 25px;
+    position: absolute;
+    top: 28%;
+    left: 30%;
+  }
+
+  // 列表
+  .lease_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 14px;
+    border-bottom: 1px solid #EBEBEB;
+
+    .periods {
+      margin-right: 20px;
+    }
+  }
+}

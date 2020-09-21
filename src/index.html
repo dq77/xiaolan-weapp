@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="width=device-width,initial-scale=1,user-scalable=no" name="viewport">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="format-detection" content="telephone=no,address=no">
+  <meta name="apple-mobile-web-app-status-bar-style" content="white">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <title>小兰智选</title>
+  <!-- 如该 H5 页面需要同时在非支付宝客户端内使用，为避免该请求404，可参考以下写法 -->
+  <!-- 请尽量在html头部执行以下脚本 -->
+  <script>
+    if (navigator.userAgent.indexOf('AlipayClient') > -1) {
+      document.writeln('<script src="https://appx/web-view.min.js"' + '>' + '<' + '/' + 'script>');
+    }
+    // my.navigateTo({
+    //   url: '../get-user-info/get-user-info'
+    // });
+    // // 网页向小程序 postMessage 消息
+    // my.postMessage({
+    //   name: "测试web-view"
+    // });
+    // // 接收来自小程序的消息。
+    // my.onMessage = function (e) {
+    //   console.log(e); // {'sendToWebView': '1'}
+    // }
+    // // 判断是否运行在小程序环境里
+    // my.getEnv(function (res) {
+    //   console.log(res.miniprogram) // true
+    // });
+    // my.startShare();
+
+  </script>
+  <script>
+    ! function (x) {
+      function w() {
+        var v, u, t, tes, s = x.document,
+          r = s.documentElement,
+          a = r.getBoundingClientRect().width;
+        if (!v && !u) {
+          var n = !!x.navigator.appVersion.match(/AppleWebKit.*Mobile.*/);
+          v = x.devicePixelRatio;
+          tes = x.devicePixelRatio;
+          v = n ? v : 1, u = 1 / v
+        }
+        if (a >= 640) {
+          r.style.fontSize = "40px"
+        } else {
+          if (a <= 320) {
+            r.style.fontSize = "20px"
+          } else {
+            r.style.fontSize = a / 320 * 20 + "px"
+          }
+        }
+      }
+      x.addEventListener("resize", function () {
+        w()
+      });
+      w()
+    }(window);
+
+  </script>
+  <script type="text/javascript">
+    //声明_czc对象:
+    var _czc = _czc || [];
+    _czc.push(["_setAccount", "1266105515"]);
+
+    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape(
+      "%3Cspan style='display:none;' id='cnzz_stat_icon_1266105515'%3E%3C/span%3E%3Cscript src='" +
+      cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1266105515' type='text/javascript'%3E%3C/script%3E"
+    ));
+
+  </script>
+  <!-- <script src="https://cdn.bootcss.com/vConsole/3.2.0/vconsole.min.js"></script>
+<script>
+  var vConsole = new VConsole();
+  // console.log('Hello world');
+</script> -->
+</head>
+
+<body>
+  <div id="app"></div>
+
+</body>
+<script>
+  import { get as getGlobalData } from './global_data.js'
+  let channel = getGlobalData('Channel');
+  if (channel === 'alipay') {
+    document.writeln('<script src="https://gw.alipayobjects.com/as/g/h5-lib/alipayjsapi/3.1.1/alipayjsapi.inc.min.js"' + '>' + '<' + '/' + 'script>');
+  } else if (channel === 'XIAO_LAN') {
+    document.writeln('<script src="https://res.wx.qq.com/open/js/jweixin-1.3.2.js"' + '>' + '<' + '/' + 'script>');
+  }
+</script>
+<!-- 支付宝 api -->
+<!-- <script src="https://gw.alipayobjects.com/as/g/h5-lib/alipayjsapi/3.1.1/alipayjsapi.inc.min.js"></script> -->
+<!-- 微信 -->
+<!-- <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.3.2.js"></script> -->
+
+</html>

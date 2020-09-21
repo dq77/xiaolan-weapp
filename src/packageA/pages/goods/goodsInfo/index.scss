@@ -1,0 +1,20 @@
+.item-info {
+
+  padding: 20px 20px 12px;
+  min-height: 80px;
+
+  &-title {
+    font-family: PingFangSC-Medium;
+    font-size: 17Px;
+    color: #333333;
+    line-height: 1.2;
+  }
+
+  &-brief {
+    color: #666;
+    font-size: 12Px;
+    line-height: 1.5;
+    margin-top: 8px;
+  }
+  
+}

@@ -1,0 +1,18 @@
+@import '../../styles/mixin.scss';
+
+.comp-loading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+
+.comp-loading__img {
+  width: 50px;
+  height: 50px;
+
+  .taro-img__mode-scaletofill {
+    width: auto;
+  }
+}

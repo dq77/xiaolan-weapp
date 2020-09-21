@@ -1,0 +1,26 @@
+.coupons {
+  width: 100%;
+  font-size: 14PX;
+  height: 94px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  .coupon-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .vgn {
+    color: #ccc;
+  }
+
+  .coupons_status {
+
+    color: #666;
+  }
+  
+}

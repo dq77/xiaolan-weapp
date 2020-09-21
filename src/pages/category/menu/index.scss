@@ -1,0 +1,37 @@
+
+@import "../../../styles/mixin.scss";
+
+.cate-menu {
+  padding-top: 40px;
+  background-color: #F9F9FB;
+  width: 162px;
+}
+
+.cate-menu__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // margin-bottom: 40px;
+  height: 96px;
+  
+  &--active {
+    
+    background-color: #fff;
+  }
+
+  &-name {
+    // margin-left: -6px;
+    width: 100%;
+    color: #333;
+    font-size: 28px;
+    text-align: center;
+
+    &--active {
+      color: $color-primary;
+      border: 0 solid #ffffff;
+      border-left-width: 6px;
+      border-left-color: $color-primary;
+      text-indent: -6px;
+    }
+  }
+}

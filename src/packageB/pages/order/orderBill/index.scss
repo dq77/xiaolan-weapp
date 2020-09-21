@@ -1,0 +1,42 @@
+.orderBill{
+  height: 100%;
+  background-color: #f3f4f5;
+  display: flex;
+  flex-direction: column;
+  font-size: 12Px;
+  .bill_price{
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 0 30px;
+  }
+  .bline{
+    border-bottom: 1px solid #EBEBEB;
+  }
+  .bline:last-child{
+    border-bottom: 1px solid #fff;
+  }
+  .cell{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+    .cell_right,.cell_left{
+      display: flex;
+      flex-direction: column;
+    }
+    .cell_right{
+      text-align: right;
+    }
+    .blue{
+      color: #4164ff 
+    }
+    .textcolor{
+      color: #999;
+    }
+  }
+  .bill_time{
+    background: #fff;
+    flex: 1;
+    overflow: auto;
+    padding: 0 30px;
+  }
+}

@@ -1,0 +1,70 @@
+.addAddress {
+  height: 100%;
+  background-color: #f3f4f5;
+  font-size: 14Px;
+
+  .form_input {
+    font-size: 14PX;
+    background: #fff;
+    padding-right: 30px;
+
+    .at-input input,
+    .at-input__title {
+      font-size: 14Px;
+    }
+
+  }
+
+  .form_defaultadress {
+    height: 94px;
+    background: #fff;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+  }
+
+  .checkImg {
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+  }
+
+  .footer_btn {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+
+    .btn {
+      margin: 0 30px;
+    }
+  }
+
+  .vgn {
+    color: #666;
+  }
+
+  // 对话框
+  .at-modal__content {
+    min-height: initial;
+    text-align: center;
+  }
+
+  .at-input--disabled {
+    opacity: inherit;
+  }
+
+  .weui-picker,
+  .weui-picker__hd {
+    font-size: 16Px;
+  }
+
+  .weui-picker__indicator {
+    height: 40Px;
+    top: 99Px;
+  }
+
+  .weui-picker__action {
+    // color: #333;
+  }
+}

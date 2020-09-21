@@ -1,0 +1,41 @@
+.AddressInfo{
+  background: #fff;
+  height: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  font-size: 14Px;
+  position: relative;
+  .onerow{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .vgin{
+    vertical-align: super;
+  }
+  .address{
+    margin-left: 10px;
+    // white-space: nowrap;
+    width: 86%;
+  }
+  .addressname{ 
+    margin-right: 28px;
+    margin-left: 40px;
+  }
+  .noAddress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: #4164ff;
+    .posRight{
+      top: 40%;
+    }
+  }
+  .posRight{
+    position: absolute;
+    right: 4%;
+    top: 18%;
+    color: #ccc;
+  }
+}

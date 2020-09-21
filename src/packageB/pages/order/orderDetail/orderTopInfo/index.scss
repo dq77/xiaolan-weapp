@@ -1,0 +1,77 @@
+.orderTopInfo{
+  .orderStatus{
+    height: 240px;
+    // background: url(../../../../images//ordertail/daizhifu.png) no-repeat center;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    .orderStatus_status{
+      font-size: 22Px;
+    }
+    .orderStatus_brief{
+      font-size: 12Px;
+      width: 65%;
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .daizhifu{
+    background: url(https://assets.taozugong.com/wxapp/images/ordertail/daizhifu.png) no-repeat center;
+    background-size: cover;
+  }
+  .daishouhuo{
+    background: url(https://assets.taozugong.com/wxapp/images/ordertail/daishouhuo.png) no-repeat center;
+    background-size: cover;
+  }
+  .daifahuo{
+    background: url(https://assets.taozugong.com/wxapp/images/ordertail/daifahuo.png) no-repeat center;
+    background-size: cover;
+  }
+  .zulingzhong{
+    background: url(https://assets.taozugong.com/wxapp/images/ordertail/zulingzhong.png) no-repeat center;
+    background-size: cover;
+  }
+  .guanbi{
+    background: url(https://assets.taozugong.com/wxapp/images/ordertail/guanbi.png) no-repeat center;
+    background-size: cover;
+  }
+  .orderAddress{
+    height: 128px;
+    box-sizing: border-box;
+    font-size: 14Px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+    .vgn{
+     margin-right: 10px;
+    }
+    .orderAddress_user{
+      display: flex;
+      align-items: center;
+      position: relative;
+      .orderAddress_user_name{
+        width: 67%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .orderAddress_user_phone{
+        position: absolute;
+        right: 0;
+      }
+    }
+    .orderAddress_ads{
+      font-size: 12Px;
+      color: #999;
+      margin-left: 5%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}

@@ -1,0 +1,216 @@
+.orderConfirm {
+  height: 100vh;
+  background-color: #F6F7F8;
+  // padding-top:156px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .top {
+    width: 100%;
+    border-bottom: 1px solid #F3F4F5;
+    margin-bottom: 20px;
+    // height: 136px;
+  }
+
+  .main {
+    flex: 1;
+    scroll-behavior: smooth;
+    overflow: auto;
+    // position: relative;
+
+    .deposit_wrap {
+      margin-top: 20px;
+      box-sizing: border-box;
+      // padding: 30px 0 ;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .deposit {
+        font-size: 14PX;
+        // height: 64px;
+        display: flex;
+        margin: 0 30px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0 20px 0;
+        // margin-bottom: 10px;
+      }
+
+      .deposit:nth-of-type(1) {
+        // padding-bottom: 20px;
+        border-bottom: 1px solid #F3F4F5;
+      }
+    }
+
+    .my_balance {
+      background: #fff;
+      height: 94px;
+      font-size: 14Px;
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 30px;
+
+      .vgn {
+        color: #ccc;
+      }
+    }
+
+    .my_coupons {
+      padding: 0 30px;
+      background: #fff;
+    }
+
+    .agreement {
+      font-size: 14PX !important;
+      height: 94px;
+      background: #fff;
+      display: flex;
+      padding: 0;
+      align-items: center;
+      margin-top: 20px;
+
+      .at-checkbox__title {
+        font-size: 14Px;
+        line-height: 25Px;
+      }
+
+      .agrement_a {
+        color: #4164ff;
+        // font-size: 12Px;
+        margin-left: -12Px;
+        z-index: 9;
+      }
+
+      .taro-checkbox_checked {
+        border-radius: 50%;
+        color: #4164ff;
+        top: 3Px;
+      }
+
+      .weui-cells_checkbox {
+        margin-right: 10px;
+      }
+
+      // .at-checkbox__option:active {
+      //   // background: #fff;
+      // }
+    }
+
+    .vgn {
+      vertical-align: baseline;
+      margin-left: 10px
+    }
+
+    .deposit_price {
+      color: #666;
+    }
+  }
+
+  .footer {
+    width: 100%;
+    margin-top: 20px;
+    background: #fff;
+    // position: absolute;
+    // bottom: 0;
+    // display: none;
+    bottom: 0;
+
+    .payMoney {
+      height: 100px;
+      display: flex;
+      align-items: center;
+
+      .payMoney_price {
+        // padding-top: 14Px;
+        height: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .payMoney_price_label {
+          font-size: 12Px;
+          margin-right: 10px;
+        }
+
+        .payMoney_price_money {
+          font-size: 16Px;
+          color: #4164ff;
+        }
+
+        .payMoney_price_row {
+          line-height: 18Px;
+          padding-left: 30%;
+        }
+
+        .payMoney_price_row {
+          width: 100%;
+          // margin-top: 10px;
+        }
+      }
+
+      .payMoney_btn {
+        flex: 1;
+        height: 100%;
+        color: #fff;
+        background: #4164ff;
+        text-align: center;
+        line-height: 100px;
+      }
+
+      .disable {
+        background: #9a9a9a;
+      }
+    }
+  }
+
+  .at-modal__content {
+    min-height: 0;
+    text-align: center;
+  }
+
+  .at-card__header {
+    text-align: center;
+  }
+
+  .return_cash {
+    // width: 100%;
+    height: 94px;
+    background-color: #fff;
+    // box-sizing: border-box;
+    font-size: 28px;
+    color: #333;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+
+    .return_cash_content {
+      color: #666;
+    }
+  }
+  .peraonas-container{
+    .at-input__title {
+      font-size: 14Px;
+    }
+    .at-input__input {
+      font-size: 14Px;
+      text-align: right;
+    }
+  }
+  .sku-btn {
+    width: 100%;
+    background-color: #4164ff;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    line-height: 100px;
+    font-size: 40px;
+  }
+}

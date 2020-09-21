@@ -1,0 +1,105 @@
+@import "../../../styles/mixin.scss";
+
+.brand_detail-page {
+  @include wh(100%, 100%);
+  box-sizing: border-box;
+  font-family: PingFangSC-Regular;
+  .brand-header {
+    width: 100%;
+    height: 430px;
+    .brand-cover {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .brand-slogan {
+    width: 100%;
+    height: 200px;
+    padding: 0 32px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid #EBEBEB;
+    .brand-logo {
+      width: 120px;
+      height: 120px;
+      margin-right: 10Px;
+    }
+    .brand-name {
+      font-size: 32px;
+      color: #333333;
+      letter-spacing: 0;
+      line-height: 28px;
+      margin-bottom: 10Px;
+    }
+    .brand-brief {
+      font-size: 24px;
+      color: #999999;
+      letter-spacing: 0;
+      line-height: 24px;
+    }
+  }
+  .brand-good {
+    margin: 23px 32px;
+    .brand-introduction{
+      font-size: 28px;
+      color: #999999;
+      text-align: justify;
+      line-height: 44px;
+      display: block;
+      margin-bottom: 30px;
+    }
+    .goods-container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .good-card {
+        margin-bottom: 10Px;
+        border: 1Px solid #ccc;
+        .taro-img {
+          width: 332px;
+          height: 346px;
+          font-size: 0;
+        }
+        .good-name {
+          font-family: PingFangSC-Medium;
+          font-size: 28px;
+          color: #333333;
+          letter-spacing: -0.34px;
+          line-height: 42px;
+          margin-left: 16px;
+        }
+        .good-tag {
+          margin-left: 16px;
+          .good-tag-text {
+            border: 1px solid #4164ff;
+            font-size: 10Px;
+            line-height: 28px;
+            letter-spacing: 0;
+            color: #4164ff;
+            padding: 4px 6px;
+            margin: 0 5px 5px 0;
+          }
+        }
+        .good-price-container {
+          margin-left: 16px;
+          margin-bottom: 30Px;
+          font-size: 14Px;
+          .good-price {
+            color: #FF1926;
+            font-size: 16Px;
+          }
+        }
+      }
+    }
+  }
+  .bottom-line {
+    width: 100%;
+    font-size: 14px;
+    color: #ccc9c9;
+    text-align: center;
+    margin-top: 20Px;
+  }
+}

@@ -1,0 +1,49 @@
+.agreement{
+  padding: 30px;
+  font-size: 14Px;
+  .agrHeader {
+    width:100%;
+    line-height: 45px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 16Px;
+    background-color: #FFF;
+    font-family: 'PingFangSC-Regular'
+  }
+  .argSection {
+    background-color: #FFF;
+    width: 100%;
+    padding: 0 7px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  .argSection .argSection-p.argSection-title {
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .argSection .argSection-p {
+    line-height: 1.8;
+    text-align: justify;
+    text-indent: 20px;
+  }
+  .argSection .argSection-p text {
+    display: block;
+    text-indent: 88rpx;
+  }
+  .argSection .argSection-p:last-child {
+    padding-bottom: 35px;
+  }
+  
+  .argSection .title-h5 {
+    font-size: 14Px;
+    font-weight: bold;
+    padding: 15rpx 0;
+  }
+  
+  .argSection .View-br {
+    height: 1px;
+    display: block;
+    width: 100%;
+  }
+}

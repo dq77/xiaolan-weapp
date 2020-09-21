@@ -1,0 +1,195 @@
+@import "../../styles/mixin.scss";
+
+.user-page {
+  @include wh(100%, 100%);
+
+  .user-page-info {
+    height: 360px;
+    height: 480px;
+    background: url(https://tzg-static.oss-cn-hangzhou.aliyuncs.com/xiaolan/user/user-bg.png);
+    background-size: 100% 100%;
+  }
+
+  .user-page-head {
+    padding: 4% 22px 3.3% 22px;
+    padding: 4% 22px 18% 22px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .user-info {
+    .at-button {
+      display: block;
+      border: 0;
+      padding: 0;
+      width: 100%;
+      height: 200px;
+      position: absolute;
+      left: 0;
+      top: 5%;
+    }
+    .login-btn{
+      height: 1160px;
+    }
+    .at-button__text {
+      width: 100%;
+    }
+    .user-login {
+      display: block;
+    }
+  }
+  .mine-info {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    .at-col-2 {
+      margin: 3.3% 3.3% 0 4.3%;
+
+      .user-photo {
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        border-radius: 50%;
+        font-size: 64px;
+        font-weight: bold
+      }
+
+      .at-avatar {
+        line-height: 1.8;
+        background: rgb(127, 194, 255);
+
+        .taro-text {
+          font-size: 64px;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .at-col-4 {
+      margin: 4.3% 0 0;
+      display: flex;
+      flex-direction: column;
+      max-width: none;
+      // text-align: left;
+      .user-login {
+        margin-bottom: 15px;
+        font-family: PingFangSC-Semibold;
+        font-size: 36px;
+        color: #FFFFFF;
+        letter-spacing: -0.43px;
+        height: 40px;
+      }
+
+      .user-login-explain {
+        color: #fff;
+        font-size: 24px;
+      }
+    }
+    .update-userInfo {
+      height:40px;
+      font-size:12Px;
+      line-height:40px;
+      width: 80px;
+      color: #fff;
+      margin-left: 20px;
+      .at-button {
+        height:40px;
+        font-size:12Px;
+        line-height:40px;
+        color: #fff;
+  
+      }
+    }
+
+    .at-col__offset-4 {
+      .right-icon {
+        margin: 60px 0 0;
+        width: 48px;
+        height: 48px;
+      }
+    }
+  }
+  
+  .user-options {
+    margin: 0 4.3% 0 10px;
+    position: relative;
+    top: -3%;
+
+    // 列表右边距为0
+    .at-list__item {
+      padding-right: 0;
+    }
+
+    // 列表字体样式
+    .at-list__item .item-content__info-title {
+      font-size: 28px;
+      color: #333;
+    }
+
+    // 列表右箭头 大小
+    .at-list__item .item-extra__icon-arrow {
+      font-size: 32px;
+    }
+
+    // 列表里图标 定位距离右边距为0
+    .at-list__item .item-extra__icon {
+      right: 0;
+    }
+
+    .my-money {
+      .item-extra__info {
+        color: #333333;
+        font-size: 14Px;
+      }
+    }
+    .vip-item{
+      .at-list__item-extra{
+        width: 360px;
+        .item-extra__info{
+          font-size: 24px;
+          color: #FF7C7C;
+          padding-right: 50px;
+        }
+      }
+    }
+  }
+
+  .my-order {
+    .order-type {
+      .at-badge__num {
+        width: 100px;
+        top: -13px;
+        right: 1px;
+      }
+    }
+  }
+  
+  .kefu-btn {
+    .at-button {
+      border: none;
+      padding: 0;
+      .kefu-text {
+        box-sizing: border-box;
+        width: 700px;
+        display: flex;
+        margin-left: 48px;
+        justify-content: space-between;
+        border-bottom: 1Px solid #eeeeee;
+        .kefu-title {
+          // margin-left: 24px;
+          color: #333333;
+          font-size: 28px;
+        }
+      }
+      .at-icon {
+        margin-right: 24px;
+      }
+    }
+  }
+  // .user-photo {
+  //   width: 120px;
+  //   height: 120px;
+  // }
+}

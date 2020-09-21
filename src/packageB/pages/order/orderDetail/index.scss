@@ -1,0 +1,81 @@
+.orderDetail{
+  height: 100%;
+  background-color: #f3f4f5;
+  display: flex;
+  flex-direction: column;
+  .top{
+    // height: 368px;
+    background: #fff;
+    margin-bottom: 20px;
+  }
+  .main {
+    flex: 1;
+    overflow: auto;
+    // background: #fff;
+    .lease{
+      margin-top: 20px;
+      background: #fff;
+      padding: 30px;
+      font-size: 14Px;
+      display: flex;
+      justify-content: space-between;
+      .lease_right{
+        color: #666;
+        .vgn{
+          vertical-align: initial;
+        }
+      }
+    }
+    .moer{
+      padding: 0 30px;
+      .home__loading {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+
+        &-txt {
+          color: #666;
+          font-size: 24px;
+        }
+      }
+      .item__wrap {
+        padding-bottom: 100px;
+      }
+    }
+    .at-divider__content{
+      background: #f3f4f5;
+    }
+  }
+  .footer {
+    box-sizing: border-box;
+    padding: 20px 30px;
+    height: 100px;
+    margin-top: 20px;
+    background: #fff;
+    font-size: 14Px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    .at-button{
+      margin-left: 20px;
+    }
+  }
+  .at-modal__content{
+    min-height: inherit;
+    text-align: center;
+  }
+  .kefu-btn {
+    width: 200px;
+    height: 60px;
+    .kefu {
+      width: 180px;
+      height: 60px;
+      .at-button__text {
+        font-size: 14Px;
+        line-height: 60px;
+      }
+    }
+  }
+}

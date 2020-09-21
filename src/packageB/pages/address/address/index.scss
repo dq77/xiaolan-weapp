@@ -1,0 +1,59 @@
+.addressList{
+  background: #fff;
+  height: 100%;
+  font-size: 14Px;
+  display: flex;
+  flex-direction: column;
+  .address_list{
+    flex:1 ;
+    overflow: auto;
+    padding: 30px 30px 0 30px;
+    .checkImg{
+      width: 62px;
+      height: 62px;
+      margin-right: 28px;
+    }
+    .address_list_option{
+      border-bottom: 1px solid #EBEBEB;
+      display: flex;
+      align-items: center;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      .address_info{
+        font-size: 12Px;
+        color: #999;
+        flex: 1;
+        width: 80%;
+        .addressDetail{
+          color: #333;
+          font-size: 14Px;
+          word-wrap:break-word;
+          // margin-top: 10px;
+          // margin-bottom: 10px;
+        }
+        .address_default{
+          display: inline-block;
+          background: #4164ff;
+          border-radius: 25PX;
+          color: #FFF;
+          // padding: 0 20px;
+          margin-right: 10px;
+          line-height: 14Px;
+          font-size: 12Px;
+          padding: 0 5Px;
+        }
+      }
+    }
+  }
+  .at-icon{
+    font-size: 20Px;
+  }
+  .btn{
+    // width: 100%;
+    margin: 30px;
+  }
+  .at-modal__content{
+    min-height: inherit;
+    text-align: center;
+  }
+}

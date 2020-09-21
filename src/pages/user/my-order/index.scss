@@ -1,0 +1,54 @@
+@import "../../../styles/mixin.scss";
+
+.my-order {
+  @include wh(100%, 100%);
+  position: relative;
+  top: -50px;
+  width: 91.5% !important;
+  margin: 0 auto;
+  height: 78*2px;
+  background: #fff;
+  box-shadow: 0 3px 10px 0 rgba(173, 179, 191, 0.30);
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .order-woder {
+    display: inline-block;
+    margin: 34px 34px 20px 34px;
+    font-size: 32px;
+    color: #333333;
+    line-height: 32px;
+    font-weight: bold;
+    font-family: PingFangSC-Medium;
+  }
+
+  .order-type {
+    .at-badge__num {
+      padding: 0;
+      line-height: 18Px;
+      border-radius: 50%;
+      height: 20Px;
+      min-width: 20Px;
+    }
+
+    text-align: center;
+
+    // 四种订单类型里面 图片大小
+    .taro-img {
+      width: 30PX;
+      height: 30PX;
+    }
+
+    .no-tips {
+      position: relative;
+      top: 8px;
+    }
+
+    .order-word {
+      font-size: 12PX;
+      display: block;
+      color: #333333;
+    }
+  }
+}

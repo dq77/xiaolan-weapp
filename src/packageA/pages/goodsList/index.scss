@@ -1,0 +1,28 @@
+@import "../../../styles/mixin.scss";
+
+.goodsList-page {
+  @include wh(100%, 100%);
+
+  .items-grid-view {
+    padding: 0 28px;
+
+    .no-data {
+      text-align: center;
+      padding: 30px 0;
+    }
+  }
+
+  .data-tips {
+    padding:20px 0;
+    text-align: center;
+    color: #999;
+    font-size:12Px;
+  }
+
+  .loading-tips {
+    padding:20px 0;
+    text-align: center;
+    color: #999;
+    font-size:12Px;
+  }
+}

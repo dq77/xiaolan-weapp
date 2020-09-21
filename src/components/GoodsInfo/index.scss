@@ -1,0 +1,95 @@
+.GoodsInfo {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14PX;
+
+  .goodsContent {
+    display: flex;
+
+    .imgWrap {
+      width: 140px;
+      height: 140px;
+      margin-right: 17px;
+    }
+
+    .goods {
+      width: 77%;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+
+      .good_name {
+        margin-bottom: 30px;
+        color: #333;
+        display: flex;
+        justify-content: space-between;
+
+        .name_text {
+          overflow: hidden;
+          width: 80%;
+          text-overflow: ellipsis;
+        }
+      }
+
+      .good_detail,
+      .good_price {
+        font-size: 12Px;
+        color: #999;
+      }
+
+      .counts {
+        color: #666;
+        float: right;
+      }
+    }
+  }
+
+  .pdBottom {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #EBEBEB;
+    ;
+  }
+
+  .GoodsLease {
+    position: relative;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+
+    .lease {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 12Px;
+      color: #999;
+    }
+    .btn {
+      width: 100%;
+      text-align: right;
+      line-height: 30px;
+
+      .at-button {
+        margin-left: 10px;
+      }
+    }
+
+    .lease_brief {
+      margin-left: 34px;
+      font-size: 12Px;
+      color: #999;
+    }
+
+    .lease_time {
+      // position: absolute;
+      // right: 0;
+      color: #666;
+    }
+
+    .vgn {
+      // position: absolute;right: 0;
+    }
+  }
+}

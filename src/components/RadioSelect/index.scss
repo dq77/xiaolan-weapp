@@ -1,0 +1,74 @@
+.radioselect {
+  font-size: 14PX;
+}
+
+// 底部弹窗
+.radioView {
+  height: 454px;
+  overflow: auto;
+  margin-bottom: 60px;
+}
+
+.at-float-layout .layout-header {
+  padding: 30px !important;
+  border-bottom: 1px solid #EBEBEB;
+  text-align: center;
+  background: #fff !important;
+  padding-left: 15%;
+}
+
+.at-float-layout .layout-header__title {
+  padding-right: 0 !important;
+}
+
+.at-float-layout .layout-header__btn-close::before,
+.at-float-layout .layout-header__btn-close::after {
+  background: #333;
+}
+
+.at-float-layout .layout-header__btn-close::before,
+.at-float-layout .layout-header__btn-close::after {
+  background: #333;
+}
+
+// 单选列表
+.at-radio {
+  margin-bottom: 10px;
+  font-size: 14PX;
+}
+
+.at-radio__title {
+  color: #4164ff !important;
+}
+
+.at-radio::before {
+  border-top-color: #fff !important;
+}
+
+.list_desc {
+  color: #999;
+}
+
+// .at-float-layout {
+//   position: absolute;
+//   width: 100%;
+//   // height: 0;
+//   top: 0;
+//   left: 0;
+//   z-index: 9999;
+//   display: flex;
+//   flex-direction: column;
+//   overflow: hidden;
+// }
+// .at-float-layout__overlay{
+//   flex: 1;
+//   width: 100%;
+//   background: rgba(0, 0, 0, 0.25);
+// }
+// .at-float-layout__container{
+//   position: absolute;
+//   bottom: 0;
+//   width: 100%;
+//   background: #ffffff;
+// }
+

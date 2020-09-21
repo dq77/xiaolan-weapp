@@ -1,0 +1,54 @@
+.goods-about {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 20px;
+  min-height: 100Px;
+  &-item {
+    height: 86px;
+    line-height: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1Px #E7E7E7;
+
+    .item-title {
+      color: #999;
+      font-size: 12Px;
+      margin-right: 16px;
+    }
+
+    .item-value {
+      display: inline-block;
+      width: 600px;
+      color: #333;
+      font-size: 12Px;
+      text-align: right;
+    }
+
+    .at-icon {
+      color: #ccc;
+    }
+    .at-icon-chevron-right {
+      margin-top: 0;
+    }
+  }
+    // 没有优惠券
+    .no-coupon {
+      margin: 57*2px 127*2px;
+
+      .taro-img {
+        width: 240px;
+        height: 240px;
+      }
+
+      .text {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-family: PingFangSC-Regular;
+        font-size: 28px;
+        color: #666666;
+        line-height: 28px;
+      }
+    }
+}

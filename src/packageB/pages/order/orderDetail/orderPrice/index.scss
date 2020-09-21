@@ -1,0 +1,31 @@
+.orderprice{
+  background: #fff;
+  padding: 20px 30px 20px 30px ;
+  margin-top: 20px;
+  font-size: 12Px;
+  .cell{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    .cell_left{
+      color: #333;
+    }
+    .cell_right{
+      color:#666;
+      text-align: right;
+      .vgn{
+        vertical-align: initial;
+      }
+    }
+    .blue{
+      color: #4164ff;
+    }
+  }
+  .bt{
+    padding-bottom: 20px;
+  }
+  .bp{
+    border-top: 1px solid #EBEBEB;
+    padding-top: 10Px;
+  }
+}

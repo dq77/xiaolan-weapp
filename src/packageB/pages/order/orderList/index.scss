@@ -1,0 +1,56 @@
+.orderList{
+  height: 100%;
+  background-color: #f3f4f5;
+  .badge_daizhifu, .badge_daifahuo,.badge_daishouhuo,.badge_zulingzhong{
+    position: absolute;
+    top: 2%;
+    z-index: 999999;
+  }
+  .badge_daizhifu{
+    left: 45%;
+  }
+  .badge_daifahuo{
+    left: 70%;
+  }
+  .badge_daishouhuo{
+    left: 95%;
+  }
+  .badge_zulingzhong{
+    left: 98%;
+  }
+  .imgWrap{
+    width: 484px;
+    height: 484px;
+    top: 174px;
+    position: absolute;
+    right: 14%;
+    text-align: center;
+    color: #666;
+  }
+  .scrollView{
+    height: 100%;
+    .pay_btn {
+      .at-button {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  // .at-tabs{
+  //   display: flex;
+  //   flex-direction: column;
+    .at-tabs__body{
+      // flex: 1;
+      height: 93%;
+      .at-tabs-pane{
+        position: relative;
+        height: 100%;
+        // overflow: auto;
+      }
+    }
+  // }
+  .at-modal__content{
+    min-height: inherit;
+    text-align: center;
+  }
+}

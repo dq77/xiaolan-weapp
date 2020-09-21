@@ -1,0 +1,123 @@
+.goods-grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .goods-grid-item {
+    width: 340px;
+    background-color: #fff;
+    margin: 22px 0 0 0;
+    border-radius: 4Px;
+    display: flex;
+    flex-direction: column;
+
+    .good-img {
+      width: 340px;
+      height: 340px;
+      cursor: pointer;
+      .taro-img {
+        width: 340px;
+        height: 340px;
+      }
+    }
+
+    .grid-txt-block {
+      padding: 5px 12px 10px;
+      display: flex;
+      flex-direction: column;
+      line-height: 1;
+      justify-content: space-between;
+      flex: 1;
+
+      .grid-item-title {
+        margin: 5px 0 0 5px;
+        height: 66px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .item-title-txt {
+          font-size: 30px;
+          font-weight: 400;
+          color: #333;
+          // width: 100%;
+          // height: 100%;
+          line-height: 1.2;
+          white-space: normal;
+          // letter-spacing: -1px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          /* 文本溢出时显示省略号来代表被修剪的文本 */
+          display: -webkit-box;
+          /* 必须结合的属性 ，将对象作为弹性伸缩盒子模型显示 */
+          /* autoprefixer: off */
+          -webkit-box-orient: vertical;
+          /* 必须结合的属性 ，设置或检索伸缩盒对象的子元素的排列方式 */
+          /* autoprefixer: on */
+          -webkit-line-clamp: 2;
+          /* 文本需要显示多少行 */
+        }
+      }
+
+      .grid-item-tag {
+        padding: 8px 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        min-height: 38px;
+
+        .item-tag-txt {
+          color: #4164FF;
+          font-size: 12Px;
+          background-color: #fff;
+          border: 1Px solid #4164FF;
+          border-radius: 2Px;
+          margin: 0 8px 4px 0;
+          display: inline-block;
+          padding: 2Px;
+        }
+
+        .at-tag {
+          color: #4164ff;
+          margin: 0 5px 5px 0;
+          border-radius: 0;
+          border: 1px solid #4164ff;
+        }
+      }
+
+      .grid-item-price {
+        font-size: 12Px;
+        color: #999;
+        padding: 8px 0;
+
+        .price {
+          font-size: 16Px;
+          display: inline;
+          color: #FF1926;
+        }
+        .old-price{
+          color: #4B4B4B;
+          font-size: 26px;
+          text-decoration:line-through;
+        }
+      }
+
+    }
+  }
+}
+.loading-more-area{
+  position: relative;
+  padding-top: 40px;
+  margin-top: 40px;
+}
+
+.at-activity-indicator {
+  justify-content: center;
+  margin-top: 15Px;
+}
+
+.goods-grid-no-data {
+  text-align: center;
+  padding: 20px 0;
+}

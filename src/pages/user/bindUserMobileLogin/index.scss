@@ -1,0 +1,157 @@
+@import "../../../styles/mixin.scss";
+
+.login {
+  //   width: 91.5%;
+  background: #fff;
+  padding: 40px 48px;
+
+  .back-icon {
+    width: 44px;
+    height: 44px;
+    position: relative;
+    left: -10px;
+  }
+
+  .head-word {
+    font-family: PingFangSC-Regular;
+    font-size: 28px;
+    color: #666666;
+    text-align: right;
+  }
+
+  .login-word {
+    margin: 70px 24px 60px 0px;
+    font-family: PingFangSC-Semibold;
+    font-size: 56px;
+    font-weight: 600;
+    color: #333333;
+    letter-spacing: 0.39px;
+    line-height: 56px;
+  }
+
+  .login-form {
+    .password {
+      margin-top: 25px;
+
+      .taro-img {
+        width: 30.6PX;
+        height: 24.5PX;
+        top: -5px;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .at-input {
+      border-bottom: 0.02133rem solid #ebebeb;
+      margin-left: 0px;
+      padding: 25px 0;
+
+      input {
+        font-size: 28px;
+      }
+    }
+
+    .submit {
+      margin: 80px 0 40px 0px;
+
+      .at-button--primary {
+        height: 100px;
+        line-height: 100px;
+      }
+    }
+
+    .no-submit {
+      margin: 80px 0 40px 0px;
+
+      .at-button--primary {
+        height: 100px;
+        line-height: 100px;
+        background: #ccc;
+        border: none;
+      }
+    }
+  }
+
+  .message-warp {
+    .taro-text {
+      color: #666666;
+      font-size: 28px;
+    }
+  }
+
+  // 发送验证码
+  .send-code {
+    display: inline-block;
+    width: 80PX;
+    height: 30PX;
+    line-height: 30PX;
+    border: 1px solid #4164ff;
+    font-family: PingFangSC-Regular;
+    font-size: 12PX;
+    color: #4164ff;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  // 验证码 发送等待
+  .disable-send {
+    color: #999;
+    border: 1px solid #ebebeb;
+
+  }
+
+  //  注册
+
+
+  // 同意协议
+  .at-checkbox__option {
+    padding-left: 0;
+  }
+
+  .at-checkbox::before {
+    border-top: none;
+  }
+
+  .at-checkbox::after {
+    border-bottom: none;
+  }
+
+  .agree {
+    .agreement {
+      display: inline-block;
+      font-family: PingFangSC-Regular;
+      font-size: 12PX;
+      color: #1DAEFF;
+      letter-spacing: 0;
+      line-height: 48PX;
+    }
+
+    .at-checkbox__title {
+      font-family: PingFangSC-Regular;
+      font-size: 12PX;
+      line-height: 25PX;
+      color: #333333;
+    }
+
+    .at-checkbox__option-wrap {
+      padding-right: 0;
+    }
+  }
+
+  // 设置新密码
+  .setting-password {
+    margin: 70px 24px 20px 0px;
+  }
+
+  .edit-tips {
+    font-family: PingFangSC-Regular;
+    font-size: 12PX;
+    color: #999999;
+    letter-spacing: 0.31PX;
+    line-height: 15PX;
+  }
+}

@@ -1,0 +1,92 @@
+.Items-grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  .Items-grid-item {
+    width: 330px;
+    // background-color:  #f8f8f8;
+    background-color:  #fff;
+    margin: 20px 0 0 0;
+    border: solid 1Px #EBEBEB;
+    border-radius: 4Px;
+    display: flex;
+    flex-direction: column;
+
+    .taro-img {
+      width: 330px;
+      height:291px;
+      cursor: pointer;
+    }
+
+    .grid-txt-block {
+      padding: 5px 12px;
+      display: flex;
+      flex-direction: column;
+      line-height: 1;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .grid-item-title {
+        padding: 5px 0 12px 0;
+        min-height: 56px;
+        .item-title-txt {
+          font-size: 14Px;
+          font-weight:400;
+          color: #333;
+          line-height: 1.2;
+          white-space: normal;
+          overflow: hidden;
+          text-overflow: ellipsis; /* 文本溢出时显示省略号来代表被修剪的文本 */
+          display: -webkit-box; /* 必须结合的属性 ，将对象作为弹性伸缩盒子模型显示 */
+          /* autoprefixer: off */
+          -webkit-box-orient: vertical; /* 必须结合的属性 ，设置或检索伸缩盒对象的子元素的排列方式 */
+          /* autoprefixer: on */
+          -webkit-line-clamp: 2; /* 文本需要显示多少行 */
+        }
+      }
+      .grid-item-tag {
+        padding: 8px 0;
+        white-space:pre-wrap;
+
+        .item-tag-txt {
+          color: #4164ff;
+          font-size: 12Px;
+          background-color: #fff;
+          border:1Px solid #4164ff;
+          border-radius: 2Px;
+          margin:0 8px 4px 0;
+          display:inline-block;
+          padding:2Px;
+        }
+
+        .at-tag {
+          color: #4164ff;
+          margin: 0 5px 5px 0;
+          border-radius: 0;
+          border:1px solid #4164ff;
+        }
+      }
+
+      .grid-item-price {
+        font-size: 12Px;
+        color:#999;
+        padding: 8px 0;
+        .price {
+          font-size: 16Px;
+          display: inline;
+          color: #FF1926;
+        }
+      }
+
+    }
+  }
+}
+
+.Items-grid-no-data {
+  text-align: center;
+  padding: 20px 0;
+}
