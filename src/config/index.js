@@ -8,20 +8,20 @@
  */
 
 /**
-//  * 测试服务启地址  https://api.taozugong.cn/api   (http://101.37.150.73:8080)
+//  * 测试服务启地址  https://api.meijiji.cn/api   (http://101.37.150.73:8080)
  */
 
  // 可切换不同的请求地址（仅开发环境下生效）
-const baseUrlPrefix = 'https://api.taozugong.cn'
-// let baseUrlPrefix = 'https://service.taozugong.com'
+const baseUrlPrefix = 'https://api.meijiji.cn'
+// let baseUrlPrefix = 'https://service.meijiji.com'
 
 
-export const baseUrl = process.env.NODE_ENV === 'production' ? 'https://service.taozugong.com' : baseUrlPrefix
-export const serviecUrl = 'https://jd.taozugong.com' // 正式环境地址
+export const baseUrl = process.env.NODE_ENV === 'production' ? 'https://service.meijiji.com' : baseUrlPrefix
+export const serviecUrl = 'https://jd.meijiji.com' // 正式环境地址
 
-// export const imgUploadUrl = 'https://api.taozugong.cn' // 图片上传地址
+// export const imgUploadUrl = 'https://api.meijiji.cn' // 图片上传地址
 // export const imgUploadUrl = 'http://47.98.113.37:8080' // 图片上传地址
-export const imgUploadUrl = 'https://service.taozugong.com' // 图片上传地址
+export const imgUploadUrl = 'https://service.meijiji.com' // 图片上传地址
 
 export const jdAuthorizationUrl = 'http://opencredit.jd.com/oauth2/bind?merchantCode=73024369' // 京东权益授权页面地址
 
