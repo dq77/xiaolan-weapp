@@ -19,7 +19,7 @@
 		"build:rn": "taro build --type rn",
 		"tep": "node template"
 	},
-	"author": "zhangpengbin <zhangpengbin25@163.com>",
+	"author": "diaoqi",
 	"license": "MIT",
 	"dependencies": {
 		"@tarojs/async-await": "1.3.14",
