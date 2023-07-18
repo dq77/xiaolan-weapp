@@ -1,7 +1,7 @@
 const path = require('path')
 
 const config = {
-  projectName: 'taro-taozugong',
+  projectName: 'taro-xiaogonggong',
   date: '2019-3-3',
   // 设计稿尺寸
   designWidth: 750,
