@@ -1,5 +1,5 @@
 const isH5 = process.env.CLIENT_ENV === 'h5';
-const HOST = '"https://api.taozugong.cn/api"';
+const HOST = '"https://api.meijiji.cn/api"';
 
 module.exports = {
   env: {
